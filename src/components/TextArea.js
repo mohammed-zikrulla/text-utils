@@ -32,8 +32,8 @@ function TextArea() {
         id="textAreaExample"
         rows="6"
         placeholder="Write here..."
-        defaultValue={text}
         onChange={handleChange}
+        value={text}
       ></textarea>
       <button
         type="button"
@@ -62,7 +62,7 @@ function TextArea() {
         id="textAreaExample"
         rows="2"
         placeholder="Output"
-        value={text}
+        defaultValue={text}
       ></textarea>
     </div>
   );
