@@ -32,7 +32,7 @@ function TextArea() {
         id="textAreaExample"
         rows="6"
         placeholder="Write here..."
-        value={text}
+        defaultValue={text}
         onChange={handleChange}
       ></textarea>
       <button
