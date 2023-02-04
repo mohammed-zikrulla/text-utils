@@ -1,6 +1,6 @@
 import React from "react";
 
-function navbar() {
+function Navbar() {
   return (
     <>
       <div className="pos-f-t my-10">
@@ -28,4 +28,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;
